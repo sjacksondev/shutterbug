@@ -1,0 +1,71 @@
+/* Stylesheet for Shutterugg Project for Chapter 5
+	Author: Sabrina
+	Date: 5/31/19
+
+	filename: style.css
+*/
+
+.container {
+	max-width: 928px;
+}
+
+.main {
+	height: 550px;
+	background-image: url(intro.jpg);
+	background-size: cover;
+	padding-top: 35px;
+}
+.main h1 {
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 68px;
+	text-shadow: #7D9DD4 4px 2px 4px;
+	transition: text-shadow 2s;
+}
+
+.main h1 hover {
+	text-shadow: darkred 5px 5px 14px;
+}
+
+.main h2 hover {
+	font-family: 'Bad Script', cursive;
+	margin-bottom: 40px;
+}
+
+.main a {
+	font-size: 24px;
+}
+
+.btn {
+	background-color: #A0522D;
+	color: black;
+	border-radius: 32px;
+	padding: 10px 40px;
+}
+
+.section .row {
+	padding-top: 50px;
+}
+
+.row h1 {
+	font-family: 'Cabin Condensed', sans-serif;
+}
+
+.row p {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 36px;
+}
+
+#store {
+	padding: 30px 10px;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.footer h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.footer ul {
+	list-style-type: none;
+}
